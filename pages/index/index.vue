@@ -71,7 +71,7 @@
 		data() {
 			return {
 				bgColor: '#ff0000',
-				giftImage:'/static/box.png',
+				giftImage: '/static/box.png',
 				headimage: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1580665361955&di=99387e432ae004643bb5468906465d04&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0185105c00a60da80121ab5d5f9e8e.jpg%403000w_1l_0o_100sh.jpg'
 			}
 		},
@@ -92,9 +92,10 @@
 </script>
 
 <style>
-	.background{
+	.background {
 		padding-bottom: 40upx;
 	}
+
 	.head {
 		display: flex;
 		flex-direction: column;
@@ -134,8 +135,8 @@
 	}
 
 	.box-image {
-		height: 250upx;
-		width: 300upx;
+
+		animation: boxScale 0.5s infinite;
 	}
 
 
@@ -206,4 +207,17 @@
 		height: 40upx;
 		border-left: 1px solid #FFFFFF;
 	}
+
+	@keyframes boxScale {
+		from {
+			height: 150upx;
+			width: 150upx;
+		}
+
+		to {
+			height: 180upx;
+			width: 180upx;
+		}
+	}
+
 </style>

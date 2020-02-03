@@ -10,7 +10,7 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "有礼拆",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#FF0000",
 		"backgroundColor": "#F8F8F8"
 	}
 }
